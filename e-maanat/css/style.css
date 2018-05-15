@@ -1,0 +1,18 @@
+body .container {
+  width: 900px;
+  margin: 0px auto;
+}
+body .container .wrap {
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
+  grid-gap: 0px;
+}
+body .container .wrap .col {
+  border: 5px solid green;
+  background: yellow;
+  height: 150px;
+  cursor: pointer;
+}
+body .container .wrap .col h1 {
+  text-align: center;
+}

@@ -1,0 +1,23 @@
+body{
+    
+    .container{
+        width: 900px;
+        margin: 0px auto;
+    .wrap{
+         display: grid;
+         grid-template-columns: repeat(3,300px);
+         grid-gap: 0px;
+
+        .col{
+        border: 5px solid green;
+        background: yellow;
+        height: 150px;
+        cursor: pointer;
+            
+            h1{
+                text-align: center;
+            }
+            } 
+        }
+    }
+}
